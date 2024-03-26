@@ -1,0 +1,82 @@
+/* Write your CSS code here */
+.loginMainPage {
+  background-color: #e2e8f0;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPageImage {
+  height: 60%;
+  width: 45%;
+  margin: 10px;
+}
+
+.loginDetailsForm {
+  height: 60%;
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.loginFormLogo {
+  width: 60%;
+  height: 15%;
+}
+
+.usernameInputEl {
+  width: 80%;
+}
+
+.passwordInputEl {
+  width: 80%;
+  background-color: #d7dfe9;
+  height: 10%;
+  border-radius: 10px;
+  border-style: none;
+  padding: 10px;
+}
+
+.usernameInputEl {
+  width: 80%;
+  background-color: #d7dfe9;
+  height: 10%;
+  border-radius: 10px;
+  border-style: none;
+  padding: 10px;
+}
+
+.label {
+  text-align: start;
+  width: 80%;
+}
+
+.loginStatusText {
+  color: red;
+}
+
+.buttonContainer {
+  width: 80%;
+  height: 10%;
+  margin-top: 20px;
+}
+
+.loginButton {
+  width: 100%;
+  background-color: #0b69ff;
+  border-style: none;
+  text-align: center;
+  color: #ffffff;
+  height: 100%;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
